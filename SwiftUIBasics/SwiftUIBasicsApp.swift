@@ -12,6 +12,7 @@ struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            Shapes()
         }
     }
 }
