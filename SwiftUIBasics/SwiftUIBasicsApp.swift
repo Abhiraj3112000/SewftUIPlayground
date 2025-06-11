@@ -11,8 +11,9 @@ import SwiftUI
 struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-            Shapes()
+//            ContentView()
+//            Shapes()
+            Alignment()
         }
     }
 }
