@@ -89,7 +89,7 @@ struct Stacks: View {
                         }
                         .background(Color.white)
                     }
-                    .background(Color.black)
+                    .background(Color.secondary)
                 }
         
     }
