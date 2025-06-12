@@ -87,7 +87,7 @@ struct Stacks: View {
                                 .fill(Color.blue)
                                 .frame(width: 25, height: 25)
                         }
-                        .background(Color.white)
+                        .background(Color.orange)
                     }
                     .background(Color.black)
                 }
