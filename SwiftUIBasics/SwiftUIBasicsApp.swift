@@ -13,7 +13,8 @@ struct SwiftUIBasicsApp: App {
         WindowGroup {
 //            ContentView()
 //            Shapes()
-            Alignment()
+//            Alignment()
+            Stacks()
         }
     }
 }
