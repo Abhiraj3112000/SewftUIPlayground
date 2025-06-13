@@ -49,7 +49,7 @@ struct Stacks: View {
         ZStack(alignment: .top) {
                     Rectangle()
                         .fill(Color.yellow)
-                        .frame(width: 350, height: 500, alignment: .center)
+                        .frame(width: 350, height: 500)
 
                     VStack(alignment: .leading, spacing: 10) {
                         Rectangle()
