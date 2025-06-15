@@ -29,7 +29,7 @@ struct Shapes: View {
             .background(
                 //Color.red
                 LinearGradient(
-                    gradient: Gradient(colors: [Color(#colorLiteral(red: 0.7181442055, green: 0.08581728649, blue: 0.6490891237, alpha: 1)), Color(#colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)), Color(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)), Color(#colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1))]),
+                    gradient: Gradient(colors: [Color(#colorLiteral(red: 0.9209269052, green: 0.110049552, blue: 0.8323727092, alpha: 1)), Color(#colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)), Color(#colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)), Color(#colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1))]),
                     startPoint: .topTrailing,
                     endPoint: .bottomLeading)
             )
