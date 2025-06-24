@@ -42,14 +42,10 @@ struct Backgrounds_Overlays: View {
             .fill(Color.brown)
             .frame(width: 100, height: 100, alignment: .leading)
             .overlay(
-                Rectangle()
-                    .fill(Color.blue)
-                    .frame(width: 50, height: 50), alignment: .topLeading
+                InnerRectangle1(), alignment: .topLeading
             )
             .background(
-                Rectangle()
-                    .fill(Color.red)
-                    .frame(width: 150, height: 150), alignment: .bottomTrailing
+                InnerRectangle2(), alignment: .bottomTrailing
             )
             .frame(width: 300, height:300)
             .background(Color.orange)
@@ -59,4 +55,20 @@ struct Backgrounds_Overlays: View {
 
 #Preview {
     Backgrounds_Overlays()
+}
+
+struct InnerRectangle2: View {
+    var body: some View {
+        Rectangle()
+            .fill(Color.red)
+            .frame(width: 150, height: 150)
+    }
+}
+
+struct InnerRectangle1: View {
+    var body: some View {
+        Rectangle()
+            .fill(Color.blue)
+            .frame(width: 50, height: 50)
+    }
 }

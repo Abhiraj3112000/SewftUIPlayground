@@ -40,7 +40,7 @@ struct ParentView2: View{
     var body: some View{
         ZStack {
             VStack{
-                EmbeddedView3()
+                embeddedView3
             }
         }
         .frame(width: 175, height: 100, alignment: .bottom)
@@ -86,8 +86,7 @@ struct EmbeddedView2: View {
     }
 }
 
-struct EmbeddedView3: View {
-    var body: some View {
+var embeddedView3: some View {
         HStack(alignment: .bottom, content: {
             Rectangle()
                 .fill(Color.purple)
@@ -104,8 +103,6 @@ struct EmbeddedView3: View {
         }
         )
         //.frame(maxWidth: .infinity, alignment: .leading)
-        
-    }
 }
 
 

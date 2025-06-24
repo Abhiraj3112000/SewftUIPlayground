@@ -33,7 +33,7 @@ struct SafeArea: View {
 //               }
         
         
-        //cleaner way - 
+        //cleaner way -
         ScrollView {
             VStack {
                 Text("Title goes here")

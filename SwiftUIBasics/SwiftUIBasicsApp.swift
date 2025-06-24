@@ -14,7 +14,9 @@ struct SwiftUIBasicsApp: App {
 //            ContentView()
 //            Shapes()
 //            Alignment()
-            Stacks()
+            //Stacks()
+           // Loops()
+            Buttons()
         }
     }
 }
